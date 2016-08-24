@@ -1,0 +1,20 @@
+{
+  "name": "node-commandline-app",
+  "version": "1.0.0",
+  "description": "Sample app to run node commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RohitKumar <rohit.kr001@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "verify": "./index.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "fusioncharts": "^10.0.1"
+  }
+}
